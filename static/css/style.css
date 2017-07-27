@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Fredericka+the+Great|Handlee|Just+Another+Hand|Rancho|Shadows+Into+Light+Two');
+
+body {
+    /*background: url("/static/images/bg05.jpg");*/
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 968px;
+
+}
+.section {
+  background-color: none;
+  background: url("/static/images/lined-paper.png");
+  transform: rotate(1deg);
+}
+.columns {
+  background-color: none;
+}
+
+.column {
+  background: none;
+}
+.notepaper {
+  background: url("/static/images/notepaper.png");
+  background-position: top;
+
+
+}
+.content {
+  background: none;
+}
+.navbar {
+  background-color: none;
+}
+#head {
+  /*transform: rotate(-2deg);*/
+  font-size: 40px;
+  font-family: 'Fredericka the Great' , Arial, sans-serif;
+}
+.shadows {
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two' , Arial, sans-serif;
+}
+
+.card {
+  transform: rotate(-2deg);
+}
+
+.title {
+  font-family: 'Shadows Into Light Two' , Arial, sans-serif;
+}
+.just {
+
+  font-family: 'Just Another Hand' , Arial, sans-serif;
+}
+
+.rancho {
+
+  font-family: 'Rancho' , Arial, sans-serif;
+}
+
+.mnu {
+  font-family: 'Shadows Into Light Two' , Arial, sans-serif;
+  font-size: 20px;
+}
+a.navbar-item.mnu:hover {
+
+  border-style: solid; border-width: 0px 0px 8px;
+  -moz-border-image: url("/static/images/6brush.jpg") 27 repeat;
+  -webkit-border-image: url("/static/images/6brush.jpg") 27 repeat;
+  -o-border-image: url("/static/images/6brush.jpg") 27 repeat;
+  border-image: url("/static/images/6brush.jpg") 27 repeat;
+}
+footer .container{
+  background: none ;
+}
