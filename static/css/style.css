@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Fredericka+the+Great|Handlee|Just+Another+Hand|Rancho|Shadows+Into+Light+Two');
 
-body {
-    /*background: url("/static/images/bg05.jpg");*/
+html {
+  background-size: cover;
+  background-size: contain;
+  /*background: url("/static/images/bg01.jpg");*/
+
 }
 
 .container {
   margin-top: 50px;
   max-width: 968px;
+  background: #FFFFFF;
 
 }
 .section {
-  background-color: none;
+  background: #FFFFFF;
   background: url("/static/images/lined-paper.png");
   transform: rotate(1deg);
 }
-.columns {
-  background-color: none;
-}
 
-.column {
-  background: none;
-}
 .notepaper {
   background: url("/static/images/notepaper.png");
   background-position: top;
@@ -46,7 +44,9 @@ body {
 .card {
   transform: rotate(-2deg);
 }
-
+#progress-bar {
+  transform: rotate(-1deg);
+}
 .title {
   font-family: 'Shadows Into Light Two' , Arial, sans-serif;
 }
@@ -64,14 +64,133 @@ body {
   font-family: 'Shadows Into Light Two' , Arial, sans-serif;
   font-size: 20px;
 }
-a.navbar-item.mnu:hover {
 
-  border-style: solid; border-width: 0px 0px 8px;
-  -moz-border-image: url("/static/images/6brush.jpg") 27 repeat;
-  -webkit-border-image: url("/static/images/6brush.jpg") 27 repeat;
-  -o-border-image: url("/static/images/6brush.jpg") 27 repeat;
-  border-image: url("/static/images/6brush.jpg") 27 repeat;
-}
 footer .container{
   background: none ;
+}
+
+
+/* Progress Bars */
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 25px;
+  width: 100%;
+}
+
+/* The unordered list */
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+/* The list item */
+.skill {
+  margin-bottom: 1em;
+  position: relative;
+
+}
+h5 {
+  color: #fff;
+  left: 1em;
+  line-height: 1;
+  position: absolute;
+  font-size: 10px;
+  top: .8em;
+}
+::-webkit-progress-value {
+  -webkit-animation: bar-fill 2s;
+  width: 0px;
+}
+/* Style the bar colors */
+.skill-1::-webkit-progress-value {
+  background: #6F3662;
+}
+
+.skill-1::-moz-progress-bar {
+  background: #6F3662;
+}
+
+.skill-2::-webkit-progress-value {
+  background: #FF7182;
+}
+
+.skill-2::-moz-progress-bar {
+  background: #FF7182;
+}
+
+.skill-3::-webkit-progress-value {
+  background: #FFAE5D;
+}
+
+.skill-3::-moz-progress-bar {
+  background: #FFAE5D;
+}
+
+.skill-4::-webkit-progress-value {
+  background: #9C9F84;
+}
+
+.skill-4::-moz-progress-bar {
+  background: #9C9F84;
+}
+
+.skill-5::-webkit-progress-value {
+  background: #9F6164;
+}
+
+.skill-5::-moz-progress-bar {
+  background: #9F6164;
+}
+
+.skill-6::-webkit-progress-value {
+  background: #EBCA97;
+}
+
+.skill-6::-moz-progress-bar {
+  background: #EBCA97;
+}
+
+.skill-7::-webkit-progress-value {
+  background: #C46B29;
+}
+
+.skill-7::-moz-progress-bar {
+  background: #C46B29;
+}
+
+.skill-8::-webkit-progress-value {
+  background: #EFA685;
+}
+
+.skill-8::-moz-progress-bar {
+  background: #EFA685;
+}
+
+.skill-9::-webkit-progress-value {
+  background: #5C755E;
+}
+
+.skill-9::-moz-progress-bar {
+  background: #5C755E;
+}
+
+.skill-10::-webkit-progress-value {
+  background: #E49D67;
+}
+
+.skill-10::-moz-progress-bar {
+  background: #E49D67;
+}
+/* Animation Keyframes */
+@-webkit-keyframes bar-fill {
+  0% { width: 0; }
+}
+
+@keyframes bar-fill {
+  0% { width: 0; }
 }
