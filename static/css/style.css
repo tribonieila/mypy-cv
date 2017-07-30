@@ -3,12 +3,11 @@
 html {
   background-size: cover;
   background-size: contain;
-  /*background: url("/static/images/bg01.jpg");*/
+  background: url("/static/images/webtreats-paper-pattern-1-grey.jpg");
 
 }
 
 .container {
-  margin-top: 50px;
   max-width: 968px;
   background: #FFFFFF;
 
