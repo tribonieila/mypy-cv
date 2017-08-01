@@ -1,21 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Fredericka+the+Great|Handlee|Just+Another+Hand|Rancho|Shadows+Into+Light+Two');
 
+
 html {
   background-size: cover;
   background-size: contain;
-  background: url("/static/images/webtreats-paper-pattern-1-grey.jpg");
+  background: url("/static/images/bg01.jpg");
 
 }
+/* Covered+By+Your+Grace|Fredericka+the+Great|Handlee|Just+Another+Hand|Rancho|Shadows+Into+Light+Two */
 
+.handle {
+  font-family: 'Handlee' , Arial, sans-serif;
+}
+
+.fredericka {
+  font-family: 'Fredericka the Great' , Arial, sans-serif;
+}
+
+.covered {
+  font-family: 'Covered By Your Grace' , Arial, sans-serif;
+}
+.title {
+  font-family: 'Shadows Into Light Two' , Arial, sans-serif;
+}
+.just {
+  font-family: 'Just Another Hand' , Arial, sans-serif;
+}
+.rancho {
+  font-family: 'Rancho' , Arial, sans-serif;
+}
+
+.nav { position: fixed !important; top: 0; left: 0; right: 0; }
 .container {
   max-width: 968px;
-  background: #FFFFFF;
+  /*background: #FFFFFF;*/
 
 }
+.topnav{
+  background: url("/static/images/Mjzo.deviantart (15).png");
+  height: 100%;
+}
 .section {
-  background: #FFFFFF;
-  background: url("/static/images/lined-paper.png");
+  /*background: #FFFFFF;*/
+  background: url("/static/images/03052013figure-c.gif");
   transform: rotate(1deg);
+
 }
 
 .notepaper {
@@ -24,9 +53,7 @@ html {
 
 
 }
-.content {
-  background: none;
-}
+
 .navbar {
   background-color: none;
 }
@@ -35,8 +62,8 @@ html {
   font-size: 40px;
   font-family: 'Fredericka the Great' , Arial, sans-serif;
 }
+
 .shadows {
-  font-size: 18px;
   font-family: 'Shadows Into Light Two' , Arial, sans-serif;
 }
 
@@ -45,18 +72,6 @@ html {
 }
 #progress-bar {
   transform: rotate(-1deg);
-}
-.title {
-  font-family: 'Shadows Into Light Two' , Arial, sans-serif;
-}
-.just {
-
-  font-family: 'Just Another Hand' , Arial, sans-serif;
-}
-
-.rancho {
-
-  font-family: 'Rancho' , Arial, sans-serif;
 }
 
 .mnu {
